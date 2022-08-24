@@ -1,0 +1,17 @@
+/* Add application styles & imports to this file! */
+body {
+  margin: 0;
+}
+body > my-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+body > my-app > header-component {
+  order: 0;
+}
+
+hello {
+  order: 1;
+}
